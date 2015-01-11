@@ -1,0 +1,351 @@
+//////////////////////////////
+//////////Vehicles////////////
+//////////////////////////////
+
+//////////////////////////////
+//////Cars and Trucks/////////
+//////////////////////////////
+
+/////Light Stuff/////
+"B_G_Quadbike_01_F" Quad Bike   $50/20
+"B_G_Offroad_01_F" Offroad Pickup $100/35
+"B_G_Offroad_01_armed_F" Offroad Pickup Armed $150/50
+"B_Truck_01_transport_F" HEMTT Transport (Bomb Delivery) $100/35
+"B_Truck_01_covered_F" HEMTT Transport Covered $75/25
+"O_Truck_03_transport_F" Tempest Transport (Bomb Delivery) $100/35
+"O_Truck_03_covered_F" Tempest Transport Covered $75/25
+"I_Truck_02_covered_F" Zamak Transport (Bomb Delivery) $100/35
+"I_Truck_02_transport_F" Zamak Transport Covered $75/25
+
+/////Heavy Stuff/////
+"B_MRAP_01_F" Hunter $250/85
+"B_MRAP_01_hmg_F" Hunter HMG $500/165
+"B_MRAP_01_gmg_F" Hunter GMG $750/250
+"O_MRAP_02_F" Ifrit $250/85
+"O_MRAP_02_hmg_F" Ifrit HMG $500/165
+"O_MRAP_02_gmg_F" Ifrit GMG $750/250
+"I_MRAP_03_F" Strider $250/85
+"I_MRAP_03_hmg_F" Strider HMG $500/165
+"I_MRAP_03_gmg_F" Strider GMG $750/250
+
+
+/////////////////////////
+//////////Armor//////////
+/////////////////////////
+
+/////Light stuff/////
+"B_APC_Tracked_01_rcws_F" IFV-6c Panther $1000/335
+"I_APC_tracked_03_cannon_F" FV-720 Mora $1000/335
+"O_APC_Tracked_02_cannon_F" BTR-K Kamysh $1000/335
+
+/////Mid stuff/////
+"B_APC_Wheeled_01_cannon_F" AMV-7 Marshall $1250/415
+"O_APC_Wheeled_02_rcws_F" MSE-3 Marid $1250/415
+"I_APC_Wheeled_03_cannon_F" AFV-4 Gorgon $1250/415
+
+/////AA stuff/////
+"B_APC_Tracked_01_AA_F" IFV-6a Cheetah $2500/835
+"O_APC_Tracked_02_AA_F" ZSU-39 Tigris $2500/835
+
+/////Heavy Stuff/////
+"B_MBT_01_TUSK_F" M2A4 Slammer UP $5000/1655
+"O_MBT_02_cannon_F" T-100 Varsuk $5000/1655
+"I_MBT_03_cannon_F" MBT-52 Kuma $5000/1655
+
+//////////////////////////
+////////////Helis/////////
+//////////////////////////
+
+/////Light/////
+"B_Heli_Light_01_F" MH-9 Hummingbird $500/250
+"O_Heli_Light_02_unarmed_F" PO-30 Orca(unarmed) $600/300
+"I_Heli_light_03_unarmed_F" WY-55 Hellcat(unarmed) $600/300
+"I_Heli_Transport_02_F" CH-49 Mohawk $650/325
+"O_Heli_Transport_04_bench_F" Mi-290 Taru (Bench) $750/375
+"O_Heli_Transport_04_covered_F" Mi-290 Taru (Transport) $750/375
+"B_Heli_Transport_03_unarmed_F" CH-67 Huron (unarmed) $800/400
+
+/////Mid/////
+"B_Heli_Transport_01_F" UH-80 Ghost Hawk $1000/500
+"B_Heli_Transport_03_F" CH-67 Huron $1125/560
+"B_Heli_Light_01_armed_F" AH-9 Pawnee $2500/1250
+"O_Heli_Light_02_F" PO-30 Orca $5000/2500
+"I_Heli_light_03_F" WY-55 Hellcat $5000/2500
+
+/////Heavy/////
+"B_Heli_Attack_01_F" AH-99 Blackfoot $7500/3750
+"O_Heli_Attack_02_F" Mi-48 Kajman $8500/4250
+
+_________________________________________________________
+//////////////////////////
+//////Infantry Store//////
+//////////////////////////
+
+////////////////////////
+/////Weapon Crates//////
+////////////////////////
+//basic ammo- all basic ammo, some nades, 1 missile. $50/12
+"Box_NATO_Ammo_F"
+"Box_East_Ammo_F"
+"Box_IND_Ammo_F"
+
+//basic weapons- basic faction assault rifles, pistols $100/25
+"Box_NATO_Wps_F"
+"Box_East_Wps_F"
+"Box_IND_Wps_F"
+
+//support- gear- medkit, tool kit, binocs, rangefinders, silencers $200/50
+"Box_NATO_Support_F"
+"Box_East_Support_F"
+"Box_IND_Support_F"
+
+//supply box- basic weapons, rocket launcher & rockets, nades, backpacks $300/75
+"B_supplyCrate_F"
+"O_supplyCrate_F"
+"I_supplyCrate_F"
+
+//special weapons- sniper/marksman rifles, scopes, ammo $400/100
+"Box_NATO_WpsSpecial_F"
+"Box_East_WpsSpecial_F"
+"Box_IND_WpsSpecial_F"
+
+//explosives- ground based bombs $500/125
+"Box_NATO_AmmoOrd_F"
+"Box_East_AmmoOrd_F"
+"Box_IND_AmmoOrd_F"
+
+//Launchers $600/150
+"Box_NATO_WpsLaunch_F"
+"Box_East_WpsLaunch_F"
+"Box_IND_WpsLaunch_F"
+
+//Everything $700/175
+"B_CargoNet_01_ammo_F"
+"O_CargoNet_01_ammo_F"
+"I_CargoNet_01_ammo_F"
+
+//Custom Backpack Crate: $150/35
+"B_AssaultPack_blk"
+"B_AssaultPack_cbr"
+"B_AssaultPack_dgtl"
+"B_Carryall_cbr"
+"B_Carryall_oli"
+"B_Carryall_oucamo"
+"B_FieldPack_blk"
+"B_FieldPack_khk"
+"B_FieldPack_ocamo"
+"B_Kitbag_cbr"
+"B_Kitbag_rgr"
+"B_Kitbag_mcamo"
+"B_TacticalPack_blk"
+"B_TacticalPack_oli"
+"B_TacticalPack_ocamo"
+
+Backpack Script: Ammo Crate it should go in: "Box_FIA_Support_F"
+/*
+clearMagazineCargo this;
+clearItemCargo this;
+clearWeaponCargo this;
+clearBackpackCargo this;
+this addItemCargo ["G_Balaclava_blk",2]; 
+this addItemCargo ["G_Balaclava_combat",2]; 
+this addItemCargo ["G_Balaclava_lowprofile",2];
+this addItemCargo ["G_Bandanna_blk",2];
+this addItemCargo ["G_Bandanna_oli",2];
+this addItemCargo ["G_Bandanna_sport",2];
+this addBackpackCargo ["B_AssaultPack_blk",2];
+this addBackpackCargo ["B_AssaultPack_cbr",2];
+this addBackpackCargo ["B_AssaultPack_dgtl",2];
+this addBackpackCargo ["B_Carryall_cbr",2];
+this addBackpackCargo ["B_Carryall_oli",2];
+this addBackpackCargo ["B_Carryall_oucamo",2];
+this addBackpackCargo ["B_FieldPack_blk",2];
+this addBackpackCargo ["B_FieldPack_khk",2];
+this addBackpackCargo ["B_FieldPack_ocamo",2];
+this addBackpackCargo ["B_Kitbag_cbr",2];
+this addBackpackCargo ["B_Kitbag_rgr",2];
+this addBackpackCargo ["B_Kitbag_mcamo",2];
+this addBackpackCargo ["B_TacticalPack_blk",2];
+this addBackpackCargo ["B_TacticalPack_oli",2];
+this addBackpackCargo ["B_TacticalPack_ocamo",2];
+*/
+
+
+
+//////////////////////////////
+//Uniforms/Character Classes//
+//////////////////////////////
+
+/////Functional/////
+WEST:
+Medic $50/12
+U_B_CombatUniform_mcam_tshirt
+V_PlateCarrierSpec_rgr
+H_HelmetB_light_desert
+
+Engineer $50/12
+U_B_CombatUniform_mcam_vest
+V_Chestrig_rgr
+H_HelmetB_desert
+
+Helicopter Pilot $150/35 -needs NV goggles.
+U_B_HeliPilotCoveralls
+V_TacVest_blk
+H_PilotHelmetHeli_B
+
+Tank Driver $150/35
+U_B_CombatUniform_mcam_vest
+V_BandollierB_rgr
+H_HelmetCrew_B
+
+Ghillie Suit $200/50
+U_B_GhillieSuit
+V_Chestrig_rgr
+
+Special Forces $100/25 -needs NV goggles
+U_B_CombatUniform_mcam_vest
+V_Chestrig_rgr
+H_Watchcap_camo
+
+Officer $100/25
+U_B_CombatUniform_mcam
+V_BandollierB_rgr
+H_MilCap_mcamo
+
+PMC 1 $125/30
+U_BG_Guerilla2_1
+V_TacVest_blk
+H_Bandanna_khk
+
+PMC 2 $125/30
+U_BG_Guerilla2_3
+V_TacVest_blk
+H_Booniehat_khk_hs
+
+/////////////////////////////////////////////////////////
+EAST:
+/////////////////////////////////////////////////////////////
+
+Medic $50
+U_O_CombatUniform_ocamo
+V_TacVest_khk
+H_HelmetO_ocamo
+
+Engineer $50
+U_O_CombatUniform_ocamo
+V_HarnessO_brn
+H_HelmetO_ocamo
+
+Helicopter Pilot $150
+U_O_PilotCoveralls
+H_PilotHelmetHeli_O
+V_TacVest_khk
+
+Tank Driver $150
+U_O_SpecopsUniform_ocamo
+V_BandollierB_khk
+H_HelmetCrew_O
+
+Ghillie Suit $200
+U_O_GhillieSuit
+V_Chestrig_khk
+
+Special Forces $100
+U_O_CombatUniform_oucamo
+V_HarnessO_gry
+H_HelmetO_oucamo
+
+Officer $100
+U_O_OfficerUniform_ocamo
+V_BandollierB_khk
+H_Beret_ocamo
+
+Mercinary 1 $125
+U_OG_Guerilla1_1
+V_Chestrig_oli
+H_Shemag_olive
+
+Mercinary 2 $125
+U_OG_Guerilla1_1
+V_BandollierB_blk
+H_Cap_oli
+
+//////////////////////////////////////////////////////////////
+GUER:
+////////////////////////////////////////////////////////////
+Medic $50
+U_I_CombatUniform_shortsleeve
+V_PlateCarrierIA2_dgtl
+H_HelmetIA
+
+Engineer $50
+U_I_CombatUniform
+V_PlateCarrierIA1_dgtl
+H_HelmetIA
+
+Helicopter Pilot $150
+U_I_HeliPilotCoveralls
+H_PilotHelmetHeli_I
+V_TacVest_oli
+
+Tank Driver $150
+U_I_CombatUniform
+V_BandollierB_oli
+H_HelmetCrew_I
+
+Ghillie Suit $200
+U_I_GhillieSuit
+V_Chestrig_oli
+
+Special Forces $100
+U_I_CombatUniform_shortsleeve
+V_Chestrig_oli
+H_MilCap_dgtl
+
+Officer $100
+U_I_OfficerUniform
+V_BandollierB_oli
+H_MilCap_dgtl
+
+Partisan 1 $125
+U_IG_leader
+V_Chestrig_blk
+H_Watchcap_blk
+
+Partisan 2 $125
+U_IG_Guerilla3_1
+V_BandollierB_khk
+H_Shemag_olive
+
+
+
+_________________________________________________________
+///////////////////////////
+///////Fortifications//////
+///////////////////////////
+
+//////////Base Parts////////
+"Land_HBarrier_1_F" $10/1
+"Land_HBarrier_3_F" $20/2
+"Land_HBarrier_5_F" $25/3
+"Land_HBarrierBig_F" $30/3
+"Land_HBarrierTower_F" $100/10
+"Land_HBarrierWall_corner_F" $75/7
+"Land_HBarrierWall_corridor_F" $75/7
+"Land_HBarrierWall4_F" $50/5
+"Land_HBarrierWall6_F" $75/7
+"Land_BagFence_Short_F" $10/1
+"Land_BagFence_Round_F" $15/1
+"Land_BagFence_Long_F" $20/2
+"Land_BagFence_Corner_F" $6/1
+"Land_BagBunker_Small_F" $50/5
+"Land_BagBunker_Large_F" $125/12
+
+
+///////Static Weapons///////
+"B_HMG_01_F" Static HMG Short $500/125
+"B_HMG_01_high_F" Static HMG Tall $500/125
+"B_GMG_01_F" Static GMG Short $750/190
+"B_GMG_01_high_F" Static GMG Tall $750/190
+"B_static_AA_F" Static AA $1000/250
+"B_static_AT_F" Static AT $1000/250

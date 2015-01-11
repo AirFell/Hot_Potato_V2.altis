@@ -1,0 +1,84 @@
+#include "client\defines.hpp"
+#include "client\dialogs\autoZone\autoZone.hpp"
+#include "client\dialogs\homeDepot\homeDepot.hpp"
+#include "client\dialogs\bassPro\bassPro.hpp"
+#include "R3F_LOG\desc_include.h"
+
+respawn = 3;
+respawnDelay = 15;
+respawnDialog = 0;
+respawnOnStart = 0;
+
+
+//adding loadout template next
+//respawnTemplatesWest[] = {"MenuPosition"};
+//respawnTemplatesEast[] = {"MenuPosition"};
+//respawnTemplatesGuer[] = {"MenuPosition"};
+
+
+//this needs to be @ 1 when live. 0 for testing.
+disabledAI = 1;
+aiKills = 1;
+
+
+class Header
+{
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 64;
+};
+
+OnLoadName = "Hot Potato";
+author = "Airfell and Sanguine";
+onLoadMission = "Fear the Potato";
+onLoadMissionTime = 1;
+OnLoadIntroTime = 1;
+LoadScreen = "images\HotPotato.paa";
+briefing = 0;
+
+disableChannels[] = {0,2};
+joinUnassigned = 0;
+
+corpseLimit = 15; //adjust this if we have lag issues.
+corpseRemovalMinTime = 300;
+corpseRemovalMaxTime = 600;
+wreckLimit = 15; //adjust this if we have lag issues.
+wreckRemovalMinTime = 300;
+wreckRemovalMaxTime = 600;
+
+
+class RscTitles
+{
+ 	#include "client\dialogs\hud\HPhud.hpp"
+};
+
+class CfgDebriefing
+{  
+	class end1
+	{
+		title = "Blue Team Wins!";
+		subtitle = "Words here";
+		description = "Blue Team was able to defeat the opposing forces.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0,0,1,1};
+	};
+		class end2
+	{
+		title = "Red Team Wins!";
+		subtitle = "Words here";
+		description = "Red Team was able to defeat the opposing forces.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {1,0,0,1};
+	};
+		class end3
+	{
+		title = "Green Team Wins!";
+		subtitle = "Words here";
+		description = "Green Team was able to defeat the opposing forces.";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0,1,0,1};
+	};
+};
