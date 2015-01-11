@@ -1,12 +1,4 @@
--Ok. The method for changing classes is garbage. Instead, change uniform, then change the store checks
-to what uniform they're wearing.
-NOTE: For engineer's with this method we'll need a custom addaction for repairing vehicles.
-When players purchase the engineer kit, we give them another addaction to repair/flip vehicles.
-IF's-
-	wearing the right uniform(mind player sides)
-	in distance from a vehicle
-
-add "ending" to resource missions- make new ones spawn.
+remove missions, make add resource timer per min, and add more.
 
 check bases for accuracy on map. Some are jacked up.
 
@@ -25,70 +17,3 @@ money system/scoring system- event handlers of some sort?
 get into using automated RCON
 
 add custom loading screen?
-_____________________________________________________________________________________
-Polish things for later:
-how many times will a base be destroyed?(Should we make more base spawn markers?)
-
-pretty up closing end-mission things.
-	-Idea: stop player movement and then force everyone into a camera that spawns near the last destroyed tower, then "endMission"
-check crew placement on attach bomb addaction
-	https://community.bistudio.com/wiki/lockCargo
-
-Change functions to complilefinal. Holy shit thats going to be hard.
-
-Variables that need to be adjusted for gameplay:
-Bomb marker timer: server\Bomb_Marker.sqf line 2
-Bomb arm addaction range of enemy base: client\Arm_Bomb.sqf line 92
-Bomb arm range of enemy base: clinet\Arm_Bomb.sqf line 9
-Duration of arming animation: client\Arm_Bomb.sqf line 17
-Duration of disarming animation: client\Diarm_Bomb.sqf line 9
-Length of Countdown Timer: server\Bomb_Countdown_Detonate.sqf line 9
-Range of Damage from "explosion": server\Bomb_Countdown_Detonate.sqf line 21
-Bomb respawn delay: server\BombRespawn.sqf line 9
-
-_veh = "Truck_01_base_F" createVehicle position player;
-
-
-Truck_01_base_F
-
-average price per barrel last 15 years: 65
-
-240gallons of gas per 3,000 lb's of car.
-1 barrel of oil = 30 gallons of gas(combining diesel and regular)
-
-so about 9barrels per car.
-80gal/1k lbs
-
-Car: 3000lb
-Truck: 6000lb
-Semi:38,000lb
-HMVW:5,500
-Small Heli: 8,000lb
-Med Heli: 11,500lb
-Large Heli: 15,000
-____________________________________________
-
-1 lb of vehicle costs 0.08 gallons
-
-1 barrel = $50
-1 barrel = 30 gallons
-1 gallon = 1.666666666666667
-
-Basic Car = 3,000 lb's/240 gallons/8 barrels/$400(plus tax/construction costs/balance reasons?)
-Truck =
-
-
-car = $250/100 resources
-truck/armored unarmed/armed truck = $500/250 resources
-hmg armored truck = $750/500 resources
-gmg armored truck = $1000/750 resources
-
-light armor = $2500/1000 resources
-heavy armor = $5000/1500 resources
-tank = $10,000/1750
-
-light heli = $1500/500
-med. unarmed heli = $3000/750
-large heli = $5000/1000
-med armed heli = $7500/1500
-attack heli = $12,500/2000
